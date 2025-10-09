@@ -1,26 +1,48 @@
 [
   {
-    "title": "Static Portfolio Website",
-    "imageSrc": "projects/portfolio.png",
-    "description": "A responsive portfolio website built with HTML, CSS, and JavaScript showcasing my skills and experience as a fullstack developer.",
-    "skills": ["HTML", "CSS", "JavaScript", "Responsive Design"],
-    "demo": "https://seb018.github.io/portfolio",
-    "source": "https://github.com/Seb018/portfolio"
+    "title": "Adventure Buddies",
+    "imageSrc": "projects/adventure-buddies.png",
+    "description": "A business idea application connecting adventure enthusiasts. Built as part of a comprehensive business development project with modern web technologies.",
+    "skills": ["React", "JavaScript", "CSS", "Business Development", "UI/UX"],
+    "demo": "https://adventurebuddies.netlify.app/",
+    "source": "https://github.com/Sebah7/u08-business-idea-adventurebuddies"
+  },
+  {
+    "title": "Weather App",
+    "imageSrc": "projects/weather-app.png",
+    "description": "A responsive weather application providing real-time weather data with an intuitive user interface and location-based forecasts.",
+    "skills": ["JavaScript", "API Integration", "CSS", "HTML", "Weather API"],
+    "demo": "https://papaya-llama-1b694e.netlify.app/",
+    "source": "https://github.com/Sebah7-Chas/u07-weather-app-Sebah7"
+  },
+  {
+    "title": "Kind Earth Skincare",
+    "imageSrc": "projects/kind-earth.png",
+    "description": "An e-commerce website for sustainable skincare products featuring modern design, product catalog, and responsive layout for optimal user experience.",
+    "skills": ["HTML", "CSS", "JavaScript", "E-commerce", "Responsive Design"],
+    "demo": "https://kindearthskincare.netlify.app/",
+    "source": "https://github.com/chas-academy/u09-Kind-Earth-Skincare-Sebah7"
   },
   {
     "title": "React Portfolio",
     "imageSrc": "projects/react-portfolio.png",
-    "description": "A modern React-based portfolio website with component-based architecture and dynamic content management.",
-    "skills": ["React", "CSS Modules", "Vite", "JavaScript"],
-    "demo": "https://seb018.github.io/react-portfolio",
-    "source": "https://github.com/Seb018/react-portfolio"
+    "description": "A modern React-based portfolio website with component-based architecture, React Icons, and GitHub Pages deployment showcasing my development journey.",
+    "skills": ["React", "CSS Modules", "Vite", "React Icons", "GitHub Actions"],
+    "demo": "https://Sebah7.github.io",
+    "source": "https://github.com/Sebah7/Sebah7.github.io"
   },
   {
-    "title": "ChasAcademy Projects",
-    "imageSrc": "projects/chas.png",
-    "description": "Collection of projects completed during my Fullstack Web Developer course at ChasAcademy, showcasing progressive learning.",
-    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
-    "demo": "https://github.com/Seb018",
-    "source": "https://github.com/Seb018"
+    "title": "More Projects",
+    "imageSrc": "projects/github-portfolio.png",
+    "description": "Explore my complete collection of projects and assignments from my Fullstack Web Developer course at ChasAcademy, showcasing progressive learning and skill development.",
+    "skills": [
+      "Full Stack",
+      "React",
+      "Node.js",
+      "JavaScript",
+      "Various Technologies"
+    ],
+    "demo": "https://github.com/Sebah7",
+    "source": "https://github.com/Sebah7"
   }
 ]
