@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Static Portfolio Website",
+    "imageSrc": "projects/portfolio.png",
+    "description": "A responsive portfolio website built with HTML, CSS, and JavaScript showcasing my skills and experience as a fullstack developer.",
+    "skills": ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    "demo": "https://seb018.github.io/portfolio",
+    "source": "https://github.com/Seb018/portfolio"
+  },
+  {
+    "title": "React Portfolio",
+    "imageSrc": "projects/react-portfolio.png",
+    "description": "A modern React-based portfolio website with component-based architecture and dynamic content management.",
+    "skills": ["React", "CSS Modules", "Vite", "JavaScript"],
+    "demo": "https://seb018.github.io/react-portfolio",
+    "source": "https://github.com/Seb018/react-portfolio"
+  },
+  {
+    "title": "ChasAcademy Projects",
+    "imageSrc": "projects/chas.png",
+    "description": "Collection of projects completed during my Fullstack Web Developer course at ChasAcademy, showcasing progressive learning.",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+    "demo": "https://github.com/Seb018",
+    "source": "https://github.com/Seb018"
+  }
+]
