@@ -9,5 +9,5 @@ export default defineConfig({
       localsConvention: 'camelCase'
     }
   },
-  base: '/', // For username.github.io repositories
+  base: '/sebah7.github.io/',
 })
