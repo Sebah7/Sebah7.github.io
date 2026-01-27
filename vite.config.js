@@ -9,5 +9,5 @@ export default defineConfig({
       localsConvention: 'camelCase'
     }
   },
-  base: '/Sebah7.github.io/',
+  base: '/',
 })
