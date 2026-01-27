@@ -1,0 +1,12 @@
+:root {
+  --color-text: #f6e2e2;
+  --color-primary: #435449;
+  --color-secondary: #d1bd92;
+  --color-dark: #354b40;
+  --color-bg: #323032;
+  --color-button: #aa84b0;
+  --color-button-demo: #634e66;
+  --color-footer: rgb(94, 133, 94);
+
+  --font-roboto: "Roboto";
+}
