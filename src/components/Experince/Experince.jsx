@@ -12,7 +12,7 @@ export const Experience = () => {
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
-                  <img src={`src/assets/${skill.imageSrc}`} alt={skill.title} />
+                  <img src={`/assets/${skill.imageSrc}`} alt={skill.title} />
                 </div>
                 <p>{skill.title}</p>
               </div>
@@ -24,7 +24,7 @@ export const Experience = () => {
             return (
               <li key={id} className={styles.historyItem}>
                 <img
-                  src={`src/assets/${historyItem.imageSrc}`}
+                  src={`/assets/${historyItem.imageSrc}`}
                   alt={`${historyItem.organisation} Logo`}
                 />
                 <div className={styles.historyItemDetails}>
