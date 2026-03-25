@@ -7,7 +7,7 @@ export const About = () => {
       <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
         <img
-          src="src\assets\about\aboutImage.png"
+          src="assets\about\aboutImage.png"
           alt="Sebah looking serious"
           className={styles.aboutImage}
         />
