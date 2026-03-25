@@ -24,7 +24,7 @@ export const Hero = () => {
                 </button>
       </div>
       <img
-        src="assets\hero\heroImage.png"
+        src="src\assets\hero\heroImage.png"
         alt="Hero image of Sebah"
         className={styles.heroImg}
       />
