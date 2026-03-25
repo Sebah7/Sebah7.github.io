@@ -6,14 +6,14 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
-        {/* <img
-          src="/images/about/aboutImage.jpg"
-          alt="Sebah smiling with a laptop"
+        <img
+          src="src\assets\about\aboutImage.png"
+          alt="Sebah looking serious"
           className={styles.aboutImage}
-        /> */}
+        />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <FaCode size={32} />
+           <div className={styles.faSvg}><FaCode size={32} /></div>
             <div className={styles.aboutItemText}>
               <h3>Who I Am</h3>
               <p>
@@ -26,7 +26,7 @@ export const About = () => {
           </li>
 
           <li className={styles.aboutItem}>
-            <FaServer size={32} />
+            <div className={styles.faSvg}><FaServer size={32} /></div>
             <div className={styles.aboutItemText}>
               <h3>Areas of Interest</h3>
               <p>
@@ -38,14 +38,12 @@ export const About = () => {
           </li>
 
           <li className={styles.aboutItem}>
-            <FaPalette size={32} />
+            <div className={styles.faSvg}><FaPalette size={32} /></div>
             <div className={styles.aboutItemText}>
-              <h3>Education & Skills</h3>
+              <h3>Education & Languages</h3>
               <p>
-                <strong>Current:</strong> Chas Academy - Fullstack Web Developer (Sep 2023 - Jun 2025) <br />
-                <strong>Previous:</strong> Astar - Programming 1 C# (Jan 2023 - Mar 2023) <br />
-                <strong>Skills:</strong> HTML5, CSS3, JavaScript, React, Angular, Node.js, PHP, MySQL, MongoDB, Git/GitHub, Docker, Figma <br />
-                <strong>Languages:</strong> Swedish, English, Arabic, Tigrinya
+              Chas Academy - Fullstack Web Developer (Sep 2023 - Jun 2025) <br />
+              Swedish, English, Arabic, Tigrinya
               </p>
             </div>
           </li>

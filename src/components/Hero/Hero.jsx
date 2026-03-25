@@ -1,6 +1,13 @@
 import styles from "./Hero.module.css";
 
 export const Hero = () => {
+  const handleContactClick = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -9,13 +16,16 @@ export const Hero = () => {
           A full-stack opensource developer with experience using React, and
           NodeJS among other things. Reach out if you&apos;d like to learn more!
         </p>
-        <a href="mailto:sebahismail21@gmail.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <button 
+                  className={styles.contactBtn}
+                  onClick={handleContactClick}
+                >
+                  Contact Me
+                </button>
       </div>
       <img
-        src="assets\hero\heroImage.png"
-        alt="Hero image of me"
+        src=".\src\assets\hero\heroImage.png"
+        alt="Hero image of Sebah"
         className={styles.heroImg}
       />
       <div className={styles.topBlur} />

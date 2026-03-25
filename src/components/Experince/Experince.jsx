@@ -14,7 +14,6 @@ export const Experience = () => {
                 <div className={styles.skillImageContainer}>
                   <img src={`/assets/${skill.imageSrc}`} alt={skill.title} />
                 </div>
-                <p>{skill.title}</p>
               </div>
             );
           })}

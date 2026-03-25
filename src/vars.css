@@ -1,12 +1,15 @@
 :root {
-  --color-text: #f6e2e2;
-  --color-primary: #435449;
+  --color-text: #262424;
+  --color-primary: #bd8282;
   --color-secondary: #d1bd92;
   --color-dark: #354b40;
-  --color-bg: #323032;
-  --color-button: #aa84b0;
+  --color-bg: rgb(234, 245, 248);
+  --color-button: #5e0000;
   --color-button-demo: #634e66;
-  --color-footer: rgb(94, 133, 94);
+  --color-footer: #5e855e6b;
+  --color-card: #09464e4d;
+  --color-blur: rgba(25, 55, 109, 0.7);
+  --color-card-linear: (90deg, #19376d 0%, rgba(34, 37, 44, 0) 100%);
 
   --font-roboto: "Roboto";
 }
