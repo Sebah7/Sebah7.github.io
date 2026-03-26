@@ -17,7 +17,7 @@ export const Hero = () => {
           NodeJS among other things. Reach out if you&apos;d like to learn more!
         </p>
         <button 
-                  className={styles.contactBtn}
+                  className={styles.Btn}
                   onClick={handleContactClick}
                 >
                   Contact Me

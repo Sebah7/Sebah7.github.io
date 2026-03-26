@@ -5,7 +5,7 @@
   flex-direction: column;
   border-radius: 10px;
   background: var(--color-card);
-  box-shadow: 0 16px 14px 0 #04152d;
+  box-shadow: var(--color-shadow);
   padding: 18px 24px;
   max-width: 345px;
   min-height: 400px;
@@ -19,7 +19,7 @@
 
 .container:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 25px rgba(18, 49, 92, 0.3);
+  box-shadow: var(--color-shadow);
 }
 
 .image {
@@ -31,15 +31,16 @@
 }
 
 .title {
-  font-size: 1.7rem;
-  font-weight: 700;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 1.5rem;
 }
 
 .description {
   margin-top: 6px;
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 1.5;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -60,10 +61,8 @@
 }
 
 .skill {
-  font-size: 12px;
-  font-weight: 400;
-  border-radius: 100px;
-  background: var(--color-button);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-regular);
   padding: 4px 4px;
   margin: 2px 2px;
 }
@@ -78,10 +77,10 @@
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 14px;
-  font-weight: 600;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
   border-radius: 100px;
-  background: var(--color-button-demo);
+  background: var(--color-btn-hover);
   padding: 6px 12px;
   transition: all 0.3s ease;
   border: none;
@@ -89,9 +88,9 @@
 }
 
 .link:hover {
-  background: var(--color-secondary);
+  background: var(--color-card);
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--color-shadow);
 }
 
 .link:focus {
@@ -101,4 +100,22 @@
 
 .link::-moz-focus-inner {
   border: 0;
+}
+
+@media screen and (max-width: 830px) {
+  .title {
+    font-size: var(--font-size-md);
+  }
+
+  .description {
+    font-size: var(--font-size-sm);
+  }
+
+  .skill {
+    font-size: 0.7rem;
+  }
+  .link {
+    font-size: 0.75rem;
+    padding: 6px 12px;
+  }
 }

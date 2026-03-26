@@ -4,12 +4,53 @@
   --color-secondary: #d1bd92;
   --color-dark: #354b40;
   --color-bg: rgb(234, 245, 248);
-  --color-button: #5e0000;
+  --color-btn-hover: hsl(0, 0%, 100%);
   --color-button-demo: #634e66;
+  --color-shadow: rgb(169, 148, 208) 0px 7px 29px 0px;
   --color-footer: #5e855e6b;
   --color-card: #09464e4d;
   --color-blur: rgba(25, 55, 109, 0.7);
   --color-card-linear: (90deg, #19376d 0%, rgba(34, 37, 44, 0) 100%);
+
+  --font-size-xs: clamp(0.7rem, 2vw, 0.8rem); /* 11-13px - for tiny elements */
+  --font-size-sm: clamp(0.8rem, 2.5vw, 0.9rem); /* 13-14px - for skills, meta */
+  --font-size-base: clamp(1rem, 3vw, 1.1rem); /* 16-18px - for body text */
+  --font-size-md: clamp(
+    1.1rem,
+    3.5vw,
+    1.3rem
+  ); /* 17.6-20.8px - for descriptions */
+  --font-size-lg: clamp(
+    1.3rem,
+    4vw,
+    1.5rem
+  ); /* 20.8-24px - for h3, card titles */
+  --font-size-xl: clamp(
+    1.8rem,
+    5vw,
+    2.2rem
+  ); /* 28.8-35px - for h2, section titles */
+  --font-size-2xl: clamp(
+    2.2rem,
+    6vw,
+    2.8rem
+  ); /* 35-45px - for h1, hero title */
+  --font-size-3xl: clamp(
+    2.8rem,
+    7vw,
+    3.5rem
+  ); /* 45-56px - for large hero text */
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 900;
+
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-loose: 1.7;
 
   --font-roboto: "Roboto";
 }

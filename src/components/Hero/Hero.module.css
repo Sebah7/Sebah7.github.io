@@ -20,7 +20,9 @@
 }
 
 .title {
-  font-size: 72px;
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-extrabold);
+  margin-bottom: 1.5rem;
   font-weight: 900;
   margin-bottom: 33px;
   background: linear-gradient(
@@ -34,35 +36,38 @@
 }
 
 .description {
-  font-size: 30px;
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-normal);
   margin-bottom: 52px;
 }
 
-.contactBtn {
+.Btn {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
   padding: 17px 26px;
   border-radius: 50px;
   text-decoration: none;
   cursor: pointer;
   border: 5px solid var(--color-card);
   color: var(--color-text);
-  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  box-shadow: var(--color-shadow);
   letter-spacing: 1.5px;
   text-transform: uppercase;
   transition: all 0.5s ease;
 }
 
-.contactBtn:hover {
+.Btn:hover {
   letter-spacing: 3px;
   background-color: var(--color-card);
-  color: hsl(0, 0%, 100%);
-  box-shadow: rgb(169, 148, 208) 0px 7px 29px 0px;
+  color: var(--color-btn-hover);
+  box-shadow: var(--color-shadow);
 }
 
-.contactBtn:active {
+.Btn:active {
   letter-spacing: 3px;
   background-color: var(--color-card);
-  color: hsl(0, 0%, 100%);
-  box-shadow: rgb(169, 148, 208) 0px 7px 29px 0px;
+  color: var(--color-btn-hover);
+  box-shadow: var(--color-shadow);
   transform: translateY(10px);
   transition: 100ms;
 }

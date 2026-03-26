@@ -13,14 +13,14 @@
 }
 
 .text h2 {
-  font-size: 80px;
-  font-weight: 700;
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
   letter-spacing: 4px;
 }
 
 .text p {
-  font-size: 40px;
-  font-weight: 400;
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-regular);
   letter-spacing: 2px;
 }
 
@@ -41,8 +41,8 @@
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-regular);
   letter-spacing: 1.5px;
 }
 
@@ -60,5 +60,19 @@
 
   .links {
     align-items: center;
+  }
+
+  .text h2 {
+    font-size: var(--font-size-xl);
+    text-align: center;
+  }
+
+  .text p {
+    font-size: var(--font-size-base);
+    text-align: center;
+  }
+
+  .link a {
+    font-size: var(--font-size-base);
   }
 }
